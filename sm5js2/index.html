@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost&family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="fff">
+        <h1>СКОРО ЗДЕСЬ ПОЯВИТСЯ МОДАЛЬНОЕ ОКНО </h1>
+      </div>
+     
+    </div>
+
+    <!-- отложенный вызов -->
+    <div class="registartion_modal" id="time_modal">
+      <div class="feedback_modal_container">
+        <div class="time-block">
+          <div class="reg_modal_content">
+            <a href="" class="close_modal_reg" id="time_close">
+              <img
+                src="assets/img/close_black.svg"
+                alt=""
+                class="close_icon_white"
+              />
+            </a>
+            <div class="forms_container">
+              <p class="feed_modal_text">
+                Подпишись на рассылку от компании и узнавай обо всем самым
+                первым!
+              </p>
+              <div class="reg_form">
+                <form method="post" class="change_form">
+                  <div class="label_input">
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      class="input"
+                    />
+                    <label for="email" class="label">Email</label>
+                  </div>
+                </form>
+                <div class="submit_button">
+                  Подписаться
+                  <img src="assets/img/Arrow.svg" alt="" class="arrow" />
+                </div>
+              </div>
+              <p class="feed_modal_desc" id="window_close">
+                Окно можно закрыть через:
+              </p>
+              <div class="count_time"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="time-button">Рассылка</a>
+
+    <!-- отложенный вызов -->
+  </body>
+</html>

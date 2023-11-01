@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost&family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/profile.css" />
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+
+    <div class="profile">
+      <div class="big_container_2">
+          <div class="profile_content">
+              <div class="profile_left_bar">
+                  <div class="profile_left_bar_info">
+                      <img src="assets/img/realtor_foto.png" alt="" class="user_foto">
+                      <p class="user_left_bar_fio">
+                          Фамилия
+                          <br>
+                          Имя
+                      </p>
+                      <p class="user_left_bar_role">
+                          Администратор
+                      </p>
+                  </div>
+                  <ul class="profile_nav">
+                      <li class="profile_nav_item"><a href="" class="profile_nav_link active_profile_link">мой
+                              профиль</a></li>
+                      <li class="profile_nav_item"><a href="" class="profile_nav_link">недвижимость</a></li>
+                      <li class="profile_nav_item"><a href="" class="profile_nav_link">пользователи</a></li>
+                      <li class="profile_nav_item"><a href="" class="profile_nav_link">заявки</a></li>
+                      <li class="profile_nav_item"><a href="" class="profile_nav_link">избранное</a></li>
+                      <li class="profile_nav_item"><a href="" class="profile_nav_link">Запросы</a></li>
+
+                  </ul>
+                  <a href="" class="exit_btn">выйти</a>
+              </div>
+              <div class="profile_part profile_part_active" id="profile_part1">
+                  <div class="profile_right_bar1">
+                      <div class="user_info">
+                          <img class="user_big_foto" src="assets/img/realtor_foto.png">
+                          </img>
+                          <div class="user_info_main">
+                              <p class="user_fio">
+                                  Фамилия
+                                  <br>
+                                  Имя
+                              </p>
+                              <div class="user_item_name">
+                                  <p class="user_item_name_text">
+                                      Email:
+                                  </p>
+                                  <p class="user_email">
+                                      lodgevvv@gmail.com
+                                  </p>
+                              </div>
+                              <div class="user_item_name">
+                                  <p class="user_item_name_text">
+                                      Дата регистрации:
+                                  </p>
+                                  <p class="user_email">
+                                      14.10.2023
+                                  </p>
+                              </div>
+                              <div class="user_item_name">
+                                  <p class="user_item_name_text">
+                                      Роль:
+                                  </p>
+                                  <p class="user_email">
+                                      Администратор
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="user_change_info">
+                          <p class="user_change_name">
+                              Редактировать профиль
+                          </p>
+                          <div class="feedback_right">
+                              <form method="post" class="change_form">
+                                  <div class="label_input">
+                                      <input type="text" id="surname" placeholder="Фамилия" class="input" />
+                                      <label for="surname">Фамилия</label>
+                                  </div>
+                                  <div class="label_input">
+                                      <input type="text" name="name" id="name" placeholder="Имя" class="input" />
+                                      <label for="name">Имя</label>
+                                  </div>
+                                  <div class="label_input">
+                                      <input type="text" name="email" id="email" placeholder="Email" class="input" />
+                                      <label for="email" class="label">Email</label>
+                                  </div>
+                                  <div class="label_input">
+                                      <input type="password" name="password" id="password"
+                                          placeholder="Введите пароль" class="input" />
+                                      <label for="password" class="label">Введите пароль</label>
+                                  </div>
+                                  <div class="label_input">
+                                      <input type="password" name="password" id="password" placeholder="Повтор пароля"
+                                          class="input" />
+                                      <label for="password" class="label">Повтор пароля</label>
+                                  </div>
+                                  <div class="input-file-row">
+                                      <label class="input-file">
+                                          <input type="file" />
+                                          <span><img src="assets/img/red_gallery.svg" alt=""
+                                                  class="galleryiii" />Новое фото профиля</span>
+                                      </label>
+                                      <div class="input-file-list"></div>
+                                  </div>
+
+
+
+
+                              </form>
+                              <div class="submit_button">
+                                  Сохранить
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="profile_part">
+                  <div class="flats_profile">
+                      <div class="flats_profile_content">
+                          <div class="container3"><a href="" class="add_flat_btn">добавить <img
+                                      src="assets/img/plus_ass_image.svg" alt="" class="plus_add_flat"></a></div>
+
+                          <div class="flats_profile_finder">
+                              <div class="find_form">
+                                  <img src="" alt="" class="location" />
+                                  <input type="text" name="" id="" placeholder="Введите адрес, локацию или местность"
+                                      class="find_input" />
+                                  <input type="submit" value="" class="submit" />
+                              </div>
+                              <div class="filters">
+                                  <a href="" class="filter">Тип недвижимости</a>
+                                  <a href="" class="filter">Комнаты & ванны</a>
+                                  <a href="" class="filter">СТОИМОСТЬ </a>
+                              </div>
+                          </div>
+                          <p class="find_count">Найдено объектов: 125</p>
+
+                          <div class="likes_cards">
+                              <div class="card">
+                                  <div class="card_img_actions">
+                                      <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                      <div class="card_actions">
+                                          <a href="" class="edit_btn"><img src="assets/img/edit_icon.svg" alt=""
+                                                  class="edit_icon"></a>
+                                          <a href="" class="delete_btn" id="delete_open"><img
+                                                  src="assets/img/delete_icon.svg" alt="" class="delete_icon"></a>
+                                      </div>
+                                  </div>
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="profile_part">
+                  <div class="users_right_bar">
+                      <div class="find_users">
+                          <div class="flats_profile_finder">
+                              <div class="find_form">
+                                  <img src="" alt="" class="location" />
+                                  <input type="text" name="" id="" placeholder="Введите фамилию, имя, или айди"
+                                      class="find_input" />
+                                  <input type="submit" value="" class="submit" />
+                              </div>
+                              <div class="filters_users">
+                                  <a href="" class="filter" id="filter_user_1">Пользователи</a>
+                                  <a href="" class="filter">Риэлторы</a>
+                              </div>
+                          </div>
+
+                      </div>
+                      <p class="find_count">Найдено: 125</p>
+                      <div class="users_cards">
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="user_card">
+                              <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                              <div class="user_card_main">
+                                  <p class="user_card_id">id:1</p>
+                                  <p class="user_card_name">Фамилия <br>
+                                      Имя</p>
+                                  <p class="user_card_email">lodgevvv@gmail.com</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+
+
+
+              <div class="profile_part">
+                  <div class="users_claims">
+                      <div class="user_claims_nav">
+                          <ul class="user_claims_nav_menu">
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link active_claim_link">новые (2)</a>
+                              </li>
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link">Назначена встреча (5)</a>
+                              </li>
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link">Мои клиенты (2)</a>
+                              </li>
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link">Отклоненные (2)</a>
+                              </li>
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link">Архив (1)</a>
+                              </li>
+                          </ul>
+                      </div>
+
+                      <div class="users_claims_cards user_claims_active" id="new_claims">
+                          <div class="user_claim_card">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Риэлтор
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Пользователь
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_textarea">
+                                      <p class="small_text">
+                                          Сообщение
+                                      </p>
+                                      <!-- <div class="label_input"> -->
+
+                                      <textarea name="" id="textarea" cols="30" rows="10" class=""
+                                          placeholder="У меня возник вопрос: " class="input"></textarea>
+                                      <!-- </div> -->
+                                  </div>
+                              </div>
+                              <div class="user_claim_card_down">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Недвижимость
+                                      </p>
+                                      <a class="user_claim_card_text">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21 авенью
+                                      </a>
+                                  </div>
+                                  <div class="user_claim_actions">
+                                      <a href="" class="reject">Отклонить <img src="assets/img/reject.svg" alt=""
+                                              class="reject_icon"></a>
+                                      <a href="" class="allow" id="open_meet">Назначить встречу</a>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="users_claims_cards" id="time_claims">
+                          <div class="user_claim_card">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Риэлтор
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Пользователь
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_textarea">
+                                      <p class="small_text">
+                                          Дата и время встречи
+                                      </p>
+                                      <div class="time_meet">
+                                          <img src="assets/img/time_icon.svg" alt="" class="time_icon">
+                                          <p>14.10.23 в 20:30 </p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="user_claim_card_down">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Недвижимость
+                                      </p>
+                                      <a class="user_claim_card_text">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21 авенью
+                                      </a>
+                                  </div>
+                                  <div class="user_claim_actions">
+                                      <a href="" class="reject">В архив <img src="assets/img/reject.svg" alt=""
+                                              class="reject_icon"></a>
+                                      <a href="" class="allow">Сделать клиентом <img src="assets/img/klient_icon.svg"
+                                              alt="" class="client_icon"></a>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                      <div class="users_claims_cards" id="flat_claims">
+                          <div class="user_claim_card">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Риэлтор
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Пользователь
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_textarea" id="hidden_wrap_of_claim">
+                                      <!-- <p class="small_text">
+                          Дата и время встречи
+                      </p>
+                      <div class="time_meet">
+                          <img src="assets/img/time_icon.svg" alt="" class="time_icon">
+                          <p>14.10.23 в 20:30 </p>
+                      </div> -->
+                                  </div>
+                              </div>
+                              <div class="user_claim_card_down">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Недвижимость
+                                      </p>
+                                      <a class="user_claim_card_text">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21 авенью
+                                      </a>
+                                  </div>
+                                  <div class="user_claim_actions">
+                                      <a href="" class="reject">В архив <img src="assets/img/reject.svg" alt=""
+                                              class="reject_icon"></a>
+                                      <a href="" class="allow">Недвижимость продана</a>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                      <div class="users_claims_cards" id="reject_claims">
+                          <div class="user_claim_card">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Риэлтор
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Пользователь
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_textarea" id="hidden_wrap_of_claim">
+
+                                  </div>
+                              </div>
+                              <div class="user_claim_card_down">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Недвижимость
+                                      </p>
+                                      <a class="user_claim_card_text">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21 авенью
+                                      </a>
+                                  </div>
+                                  <div class="user_claim_actions">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="users_claims_cards" id="archive_claims">
+                          <div class="user_claim_card">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Риэлтор
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Пользователь
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_textarea" id="hidden_wrap_of_claim">
+
+                                  </div>
+                              </div>
+                              <div class="user_claim_card_down">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Недвижимость
+                                      </p>
+                                      <a class="user_claim_card_text">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21 авенью
+                                      </a>
+                                  </div>
+                                  <div class="user_claim_actions">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="profile_part">
+
+                  <div class="likes" id="likes">
+                      <div class="big_container_2">
+                          <div class="likes_cards">
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <img src="assets/img/card_foto.jpg" alt="" class="card_foto" />
+                                  <div class="card_main">
+                                      <p class="flat_type">ПеНТХАУС</p>
+                                      <p class="flat_name">
+                                          Адрес недвижимости, Италия, Рим, 21 авенью 21 авенью 21
+                                          авенью
+                                      </p>
+                                      <div class="flat_price_obol">
+                                          <p class="flat_price">10,000,000 ₽</p>
+                                      </div>
+
+                                      <div class="flat_characteristics">
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">1000 кв.м</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">5 комнат</p>
+                                          </div>
+                                          <div class="characteristic">
+                                              <img src="assets/img/romb.png" alt="" class="romb" />
+                                              <p class="flat_characteristic">3 ванны</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="profile_part">
+                  <div class="realtor_claims">
+                      <div class="user_claims_nav">
+                          <ul class="user_claims_nav_menu">
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link active_claim_link">новые (2)</a>
+                              </li>
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link">принятые (2)</a>
+                              </li>
+                              <li class="user_claim_nav_item">
+                                  <a href="" class="user_claim_nav_link">Отклоненные (2)</a>
+                              </li>
+                          </ul>
+                      </div>
+
+                      <div class="users_claims_cards user_claims_active" id="new_realtor_claims">
+                          <div class="user_claim_card" id="user_claim_card_realtor">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата регистрации
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Информация о пользователе
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_realtor">
+                                      <div class="user_claim_actions">
+                                          <a href="" class="reject">Отклонить <img src="assets/img/reject.svg" alt=""
+                                                  class="reject_icon"></a>
+                                          <a href="" class="allow">Сделать риэлтором</a>
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                      <div class="users_claims_cards">
+                          <div class="user_claim_card" id="user_claim_card_realtor_allow">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата регистрации
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Информация о пользователе
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_realtor">
+                                      <div class="user_claim_actions">
+                                          <a href="" class="reject">Отклонить <img src="assets/img/reject.svg" alt=""
+                                                  class="reject_icon"></a>
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                      <div class="users_claims_cards">
+                          <div class="user_claim_card" id="user_claim_card_realtor_reject">
+                              <div class="user_claim_card_upper">
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Дата регистрации
+                                      </p>
+                                      <p class="user_claim_card_text">
+                                          13.10.2023
+                                      </p>
+                                  </div>
+                                  <div class="user_claim_card_wrap">
+                                      <p class="small_text">
+                                          Информация о пользователе
+                                      </p>
+                                      <div class="user_card_not">
+                                          <img src="assets/img/realtor_foto.png" alt="" class="user_ava">
+                                          <div class="user_card_main">
+                                              <p class="user_card_id">id:1</p>
+                                              <p class="user_card_name">Фамилия <br>
+                                                  Имя</p>
+                                              <p class="user_card_email">lodgevvv@gmail.com</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="user_claim_card_wrap_realtor">
+                                      <div class="user_claim_actions">
+                                          <a href="" class="allow">Сделать риэлтором</a>
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+  </body>
+</html>
